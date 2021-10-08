@@ -8,7 +8,7 @@ const userData = {
   address: "Atlanta, GA, USA",
   projects: [
     {
-      title: "Gundooz Mean",
+      title: "Game Design",
       link: "https://gundoosmean.netlify.app/",
       imgUrl: "/GundoozMean.png",
     },
@@ -17,8 +17,17 @@ const userData = {
     title:
       ``,
     description: [
+      `My biggest strength is that I notice. And then, I notice some more. The world is screaming out data, and there is just so much to learn from it!`,
       `
-      When it comes to trade-offs between aesthetics, usability, and performance, what do we choose? I am a User Experience enthusiast and a Frontend Engineer. Constantly battling between sophisticated design and better performance, I am interested in exploring that thin line where engineering and art fuse into a game-changer.
+      I am an experienced Frontend Engineer and a User Experience enthusiast. Constantly maneuvering the realms of usability, design, and performance, 
+      I am interested in exploring that thin line where engineering and art fuse into a game-changer. I understand the importance of subtle details, 
+      and I understand the challenges of tech. I understand what it means to use, and I understand what it means to build.
+      With a ubiquitous perspective of user-centered design and developer-experience, I am ready for the world of Product. 
+      `, 
+      `
+      I have experience in a wide range of disciplines including firmware, software, web dev, digital marketing, 
+      interaction design, minimum viable products, data visualization, health informatics, UX design, qualitative field research, and ethnography. 
+      These experiences have given me a unique outlook on what makes a product not only usable but an absolute treat to engage with!
       `
       ],
     currentProject: "",
@@ -26,34 +35,54 @@ const userData = {
   },
   experience: [
     {
-      title: "Master's in CS - Human Computer Interaction",
+      title: "Master's in Computer Science - HCI",
       company: "College of Computing, Georgia Tech",
       year: "2021-2022",
-      desc: "",
+      desc: "Exploring the wide world full of opportunities! Incandescent in love with user-centered design and data-driven decision making!",
     },
     {
       title: "Software Engineer II",
       company: "Vimeo",
       year: "2020-2021",
-      desc: "",
+      desc: "Lead engineer for getting blazing fast marketing pages across the world. Reponsible for hitting perfect Google PageSpeed score!",
     },
     {
       title: "Senior Software Engineer",
       company: "Oracle",
       year: "2019-2020",
-      desc: "",
+      desc: "Booming responsibilities- auditing security loopholes in service layer code. Also, winner of Hack-a-thon'19 for UX Enhancement.",
     },
     {
       title: "Application Engineer",
       company: "Oracle",
       year: "2017-2019",
-      desc: "",
+      desc: "Building crazy amazing platform for collaborative digital marketing and taking multi-brand, cross-channel marketing to new feat!",
     },
     {
       title: "B.Tech in ECE",
       company: "National Institute of Technology, Trichy",
       year: "2013-2017",
       desc: `First Class with Distinction (CGPA- 9.06). Graduation thesis on "High compression signal processing for real-time medical data".`,
+    },
+  ],
+  recommendations: [{
+      text: "Love the passion, dedication and enthusiasm that Saloni brings to the table. She is a go getter and has a great penchant to learn and adapt quickly. Saloni has a warm personility and a pleasure to work with!",
+      name: "Dayananda Nanjundappa",
+      designation: "SVP, India & Technology @ Vimeo",
+      url: "https://www.linkedin.com/in/dayananda-nanjundappa-972a0638/",
+      date: "Aug, 2021",
+    }, {
+      text: `Working with Saloni was an absolute pleasure. She has great technical skill, consistently pushing through hard projects on even harder deadlines. 
+      She also has a contagious positive energy that helps push the team through all hard projects. Saloni also has a great mind and empathy for the user, always going above and beyond pure implementation.
+      Overall, Saloni is would make a great addition to any team.`,
+      name: "Jon Hurwitz",
+      designation: "Senior Product Manager, Growth @ Vimeo",
+      date: "Sep, 2021",
+    }, {
+      text: `An enthusiastic person with budding ideas having an eye for detailing is how I saw Saloni at work whilst we worked in the same team at Oracle. Her constant endeavour to table a fresh outlook to every problem statement that was deliberated upon is something that was highly appreciated by one and all. To her credit, her ability to multitask combined with the capacity to absorb a steep learning gradient, I can certainly endorse her as an asset to any team/org that she's a part of.`,
+      name: "Himangshu Chowdhary",
+      designation: "Technical Lead @ Oracle",
+      date: "May, 2020",
     },
   ],
   resumeUrl:

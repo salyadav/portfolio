@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind screen;
 
 @import 'fonts.css';
 
@@ -18,4 +19,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.stylistic-quote-mark {
+  font-size: 5rem;
+  right: 100%;
 }

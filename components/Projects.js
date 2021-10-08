@@ -1,27 +1,30 @@
 import React from "react";
 import userData from "@constants/data";
+import Header from "./Header";
 
 export default function Projects() {
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-gray-700 dark:text-gray-400 text-center md:text-left">
-          Projects
-        </h1>
-      </div>
+    <section className="bg-white dark:bg-gray-900">
+      <Header heading="Projects." />
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-          {userData.projects.map((proj, idx) => (
-            <ProjectCard
-              title={proj.title}
-              link={proj.link}
-              imgUrl={proj.imgUrl}
-              number={`${idx + 1}`}
-            />
-          ))}
+          <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
+            Personal
+          </div>
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20">
+            {userData.projects.map((proj, idx) => (
+              <ProjectCard
+                title={proj.title}
+                link={proj.link}
+                imgUrl={proj.imgUrl}
+                number={`${idx + 1}`}
+              />
+            ))}
+          </div>
+          <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
+            Course
+          </div>
         </div>
-      </div>
     </section>
   );
 }
@@ -40,9 +43,9 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
         <h1 className="absolute top-5 left-5 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
           {title}
         </h1>
-        <h1 className="absolute bottom-5 left-r text-gray-50 font-bold text-xl">
+        <div className="absolute bottom-5 left-5 text-gray-50 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
-        </h1>
+        </div>
       </div>
     </a>
   );
