@@ -78,17 +78,17 @@ export default function AboutMe() {
             <div className="text-gray-800 text-lg">
               <div>
                 <div className="bg-green-600 inline-block py-1 px-2 my-4 font-bold rounded-md text-gray-200 cursor-default">Web Dev</div>
-                <div>Javascript, TypeScript, NextJS, React, Webpack, HTML, CSS, Tailwind, SASS, Spring, Java Swing, NodeJS, PHP</div>
+                <div className="text-gray-700 dark:text-gray-400">Javascript, TypeScript, NextJS, React, Webpack, HTML, CSS, Tailwind, SASS, Spring, Java Swing, NodeJS, PHP</div>
               </div>
               <div>
                 <div className="bg-green-600 inline-block py-1 px-2 my-4 font-bold rounded-md text-gray-200 cursor-default">Product Planning</div>
-                <div>Jira, Trello, Confluence, Miro, Tableau, RawGraph, DataWrapper</div>
+                <div className="text-gray-700 dark:text-gray-400">Jira, Trello, Confluence, Miro, Tableau, RawGraph, DataWrapper</div>
               </div>
               <div>
                 <div className="bg-green-600 inline-block py-1 px-2 my-4 font-bold rounded-md text-gray-200 cursor-default">User Experience</div>
-                <div>Dedoose, Figma, Invision, Typeform, Qualtrics XM</div>
+                <div className="text-gray-700 dark:text-gray-400">Dedoose, Figma, Invision, Typeform, Qualtrics XM</div>
               </div>
-              <div>
+              <div className="text-gray-700 dark:text-gray-400">
                 <div className="bg-green-600 inline-block py-1 px-2 my-4 font-bold rounded-md text-gray-200 cursor-default">And...</div>
                 <div>Ethnographic research, Qualitative coding, Data visualization, Health informatics</div>
               </div>
