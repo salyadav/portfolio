@@ -7,7 +7,7 @@ export default function Projects() {
     <section className="bg-white dark:bg-gray-900">
       <Header heading="Projects." />
       {/* Grid starts here */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-10">
           <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
             Personal
           </div>

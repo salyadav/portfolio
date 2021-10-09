@@ -22,7 +22,7 @@ export default function Experience() {
                 company={exp.company}
               />
               {idx === userData.experience.length - 1 ? null : (
-                <div className="divider-container flex flex-col items-center -mt-2">
+                <div key={idx} className="divider-container flex flex-col items-center -mt-2">
                   <div className="w-4 h-4 bg-green-500 rounded-full relative z-10">
                     <div className="w-4 h-4 bg-green-500 rounded-full relative z-10 animate-ping"></div>
                   </div>

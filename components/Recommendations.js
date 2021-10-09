@@ -11,7 +11,7 @@ export default function Recommendations() {
                         Hear what they say
                     </h1>
                 </header> */}
-                <div className="px-10 mx-20 pt-20">
+                <div className="px-10 mx-5 lg:mx-20 pt-20">
                     {userData.recommendations.map((data, ind) => (
                         <div key={ind} className="my-20">
                             <blockquote className="relative p-4 text-xl bg-neutral-100 text-neutral-600 border-neutral-500 quote">
