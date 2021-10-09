@@ -11,12 +11,22 @@ export default function Projects() {
           <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
             Course
           </div>
-          <div className="max-w-6xl mx-auto pt-10">Updating soon...</div>
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20">
+            {userData.projects.course.map((proj, idx) => (
+              <ProjectCard
+                title={proj.title}
+                link={proj.link}
+                imgUrl={proj.imgUrl}
+                number={`${idx + 1}`}
+                key={idx}
+              />
+            ))}
+          </div>
           <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
             Fun ones!
           </div>
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20">
-            {userData.projects.map((proj, idx) => (
+            {userData.projects.fun.map((proj, idx) => (
               <ProjectCard
                 title={proj.title}
                 link={proj.link}

@@ -6,13 +6,6 @@ const userData = {
   email: "syadav64@gatech.edu",
   phone: "(+1) 470-815-2787",
   address: "Atlanta, GA, USA",
-  projects: [
-    {
-      title: "Game Design",
-      link: "https://gundoosmean.netlify.app/",
-      imgUrl: "/GundoozMean.png",
-    },
-  ],
   about: {
     title:
       ``,
@@ -92,6 +85,24 @@ const userData = {
     twitter: "https://twitter.com/DankLoni",
     linkedin: "https://linkedin.com/in/saloni-yadav",
     github: "https://github.com/salyadav",
+  },
+  projects: {
+    course: [
+      {
+        title: "Case study",
+        description: "",
+        link: "https://drive.google.com/file/d/1qIjnnY8PDaEPKazZmvUrIKq60pzY5hL1/view?usp=sharing",
+        imgUrl: "/dayone.png",
+      }
+    ],
+    fun: [
+      {
+        title: "Game Design",
+        description: "",
+        link: "https://gundoosmean.netlify.app/",
+        imgUrl: "/GundoozMean.png",
+      },
+    ]
   },
 };
 
