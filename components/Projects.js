@@ -9,7 +9,11 @@ export default function Projects() {
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900 px-10">
           <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
-            Personal
+            Course
+          </div>
+          <div className="max-w-6xl mx-auto pt-10">Updating soon...</div>
+          <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
+            Fun ones!
           </div>
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20">
             {userData.projects.map((proj, idx) => (
@@ -21,9 +25,6 @@ export default function Projects() {
                 key={idx}
               />
             ))}
-          </div>
-          <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
-            Course
           </div>
         </div>
     </section>

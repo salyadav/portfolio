@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "salyadav",
   name: "Saloni Yadav",
   designation: "Seeking Product Management Internship",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar.jpeg",
   email: "syadav64@gatech.edu",
   phone: "(+1) 470-815-2787",
   address: "Atlanta, GA, USA",
