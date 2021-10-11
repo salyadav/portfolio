@@ -10,13 +10,12 @@ const userData = {
     title:
       ``,
     description: [
-      `My biggest strength is that I notice. And then, I notice some more. The world is screaming out data, and there is just so much to learn from it!`,
-      `
-      I am an experienced Frontend Engineer and a User Experience enthusiast. Constantly maneuvering the realms of usability, design, and performance, 
-      I am interested in exploring that thin line where engineering and art fuse into a game-changer. I understand the importance of subtle details, 
-      and I understand the challenges of tech. I understand what it means to use, and I understand what it means to build.
-      With a ubiquitous perspective of user-centered design and developer-experience, I am ready for the world of Product. 
-      `, 
+      `My biggest strength is that I notice. And I notice a lot. The world is screaming out data, and there is just so much to learn from it!` 
+      ,
+      `I am a Computer Science masters student at Georgia Tech, an experienced Frontend Engineer, User Experience enthusiast, and Human-Computer Interaction researcher. 
+      Constantly maneuvering the realms of usability, design, and performance, I am interested in exploring that thin line where engineering and art fuse into a game-changer. 
+      I understand the importance of subtle details, and I understand the challenges of tech. 
+      With a ubiquitous take on user-centered design, and the attention-to-detail as a researcher, I am ready for the world of Product.`, 
       `
       I have experience in a wide range of disciplines including firmware, software, web dev, digital marketing, 
       interaction design, minimum viable products, data visualization, health informatics, UX design, qualitative field research, and ethnography. 
