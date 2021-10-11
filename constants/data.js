@@ -17,10 +17,10 @@ const userData = {
       I understand the importance of subtle details, and I understand the challenges of tech. 
       With a ubiquitous take on user-centered design, and the attention-to-detail as a researcher, I am ready for the world of Product.`, 
       `
-      I have experience in a wide range of disciplines including firmware, software, web dev, digital marketing, 
-      interaction design, minimum viable products, data visualization, health informatics, UX design, qualitative field research, and ethnography. 
-      These experiences have given me a unique outlook on what makes a product not only usable but an absolute treat to engage with!
-      `
+      I have a diverse background from building MVPs, involving in ethnographic field research, designing UX prototypes, to building core frontend architecture for blazing fast static pages 
+      and end-to-end designing of multivariate test driven digital marketing platform. I also have over four years of industry experience, leading technical projects, 
+      brainstorming with product designers to iterate over designs, and understanding our users over unexpected results of AB testing. These experiences has afforded me a unique outlook on what makes 
+      a product not only usable but also an absolute treat to engage with!`
       ],
     currentProject: "",
     currentProjectUrl: "",
@@ -36,19 +36,19 @@ const userData = {
       title: "Software Engineer II",
       company: "Vimeo",
       year: "2020-2021",
-      desc: "Lead engineer for getting blazing fast marketing pages across the world. Reponsible for hitting perfect Google PageSpeed score!",
+      desc: "Lead engineer for getting blazing fast landing pages across the world. Rewamping the frontend architecture for a unified UX.",
     },
     {
       title: "Senior Software Engineer",
       company: "Oracle",
       year: "2019-2020",
-      desc: "Booming responsibilities- auditing security loopholes in service layer code. Also, winner of Hack-a-thon'19 for UX Enhancement.",
+      desc: "Booming responsibilities- auditing security loopholes in service layer code, brainstorming on product designs, and more.",
     },
     {
       title: "Application Engineer",
       company: "Oracle",
       year: "2017-2019",
-      desc: "Building crazy amazing platform for collaborative digital marketing and taking multi-brand, cross-channel marketing to new feat!",
+      desc: "Building a collaborative multilingual platform for digital marketing and taking multi-brand, cross-channel targeting to new feat!",
     },
     {
       title: "B.Tech in ECE",
