@@ -7,7 +7,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock>
       <Hero />
-      <Recommendations />
+      <a id='reco'><Recommendations /></a>
       {/* <FavouriteProjects /> */}
     </ContainerBlock>
   );
@@ -25,5 +25,3 @@ export default function Home({ repositories }) {
   //   },
   // };
 // };
-
-//https://manuarora.in/

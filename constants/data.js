@@ -71,12 +71,12 @@ const userData = {
       designation: "Senior Product Manager, Growth @ Vimeo",
       date: "Sep, 2021",
     }, 
-    // {
-    //   text: `An enthusiastic person with budding ideas having an eye for detailing is how I saw Saloni at work whilst we worked in the same team at Oracle. Her constant endeavour to table a fresh outlook to every problem statement that was deliberated upon is something that was highly appreciated by one and all. To her credit, her ability to multitask combined with the capacity to absorb a steep learning gradient, I can certainly endorse her as an asset to any team/org that she's a part of.`,
-    //   name: "Himangshu Chowdhary",
-    //   designation: "Technical Lead @ Oracle",
-    //   date: "May, 2020",
-    // },
+    {
+      text: `An enthusiastic person with budding ideas having an eye for detailing is how I saw Saloni at work whilst we worked in the same team at Oracle. Her constant endeavour to table a fresh outlook to every problem statement that was deliberated upon is something that was highly appreciated by one and all. To her credit, her ability to multitask combined with the capacity to absorb a steep learning gradient, I can certainly endorse her as an asset to any team/org that she's a part of.`,
+      name: "Himangshu Chowdhary",
+      designation: "Technical Lead @ Oracle",
+      date: "May, 2020",
+    },
   ],
   resumeUrl:
     "https://drive.google.com/file/d/1W0utGY3R1w0bmr62ROk2gwyjFrzGj6wW/view?usp=sharing",
