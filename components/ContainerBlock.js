@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Saloni Yadav - Product Manager, Software Engineer, Product Designer",
     description: `I am a masters in Computer Science student at Georgia Tech, specializing in HCI. I have been a Software Engineer (mainly Frontend) for over 4 years. I am seeking Product Management opportunities in United States.`,
-    image: "/gtlogo.png",
+    image: "/homeimage.png",
     type: "website",
     ...customMeta,
   };
