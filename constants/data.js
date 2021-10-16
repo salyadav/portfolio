@@ -90,9 +90,17 @@ const userData = {
     course: [
       {
         title: "Case study",
-        description: "",
         link: "https://drive.google.com/file/d/1qIjnnY8PDaEPKazZmvUrIKq60pzY5hL1/view?usp=sharing",
         imgUrl: "/dayone.png",
+      }, {
+        title: "Ethnography",
+        link: "https://drive.google.com/file/d/1i8aTJcMQGMLUz7JceuZdT9RGSG-ggBkL/view?usp=sharing",
+        imgUrl: "/amusementpark.png",
+      },
+      {
+        title: "Project pitch",
+        link: "https://drive.google.com/file/d/1lM3Sol6uu_VWLonU6kzFqBPtTU35a_YD/view?usp=sharing",
+        imgUrl: "/prezprep.png"
       }
     ],
     fun: [
