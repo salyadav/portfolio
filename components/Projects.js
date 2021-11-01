@@ -23,7 +23,7 @@ export default function Projects() {
             ))}
           </div>
           <div className="max-w-6xl mx-auto pt-10 text-3xl font-bold text-gray-700 dark:text-gray-200 border-b border-b-4 border-gray-300 dark:border-gray-200">
-            Fun ones!
+            Sustainability Projects
           </div>
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20">
             {userData.projects.fun.map((proj, idx) => (

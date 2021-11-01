@@ -12,15 +12,17 @@ const userData = {
     description: [
       `My biggest strength is that I notice. And I notice a lot. The world is screaming out data, and there is just so much to learn from it!` 
       ,
-      `I am a Computer Science masters student at Georgia Tech, an experienced Frontend Engineer, User Experience enthusiast, and Human-Computer Interaction researcher. 
+      `I am a Computer Science master's student at Georgia Tech, an experienced Frontend Engineer, User Experience enthusiast, and Human-Computer Interaction researcher. 
       Constantly maneuvering the realms of usability, design, and performance, I am interested in exploring that thin line where engineering and art fuse into a game-changer. 
       I understand the importance of subtle details, and I understand the challenges of tech. 
       With a ubiquitous take on user-centered design, and the attention-to-detail as a researcher, I am ready for the world of Product.`, 
       `
-      I have a diverse background from building MVPs, involving in ethnographic field research, designing UX prototypes, to building core frontend architecture for blazing fast static pages 
-      and end-to-end designing of multivariate test driven digital marketing platform. I also have over four years of industry experience, leading technical projects, 
-      brainstorming with product designers to iterate over designs, and understanding our users over unexpected results of AB testing. These experiences has afforded me a unique outlook on what makes 
-      a product not only usable but also an absolute treat to engage with!`
+      I have a diverse background from building MVPs, conducting ethnographic field research, designing UX prototypes, to building core frontend architecture 
+      and end-to-end development of collaborative digital marketing platform. With over four years of industry experience in leading projects, 
+      and data-driven exploration of our users needs, I can build a product not only usable but also an absolute treat to engage with!
+      `, 
+      `In addition, I am a strong advocate of sustainable development and want to be a part of an organization that empathizes with my vision of imbibing 
+      sustenance at a granular level.`
       ],
     currentProject: "",
     currentProjectUrl: "",
@@ -105,8 +107,14 @@ const userData = {
     ],
     fun: [
       {
+        title: "Product Design",
+        description: "Automated ESG profiling for small-scale investors and recommending IFAs based on their ESG Score.",
+        link: "https://devpost.com/software/the-green-genie",
+        imgUrl: "/blackrock.png",
+      },
+      {
         title: "Game Design",
-        description: "",
+        description: "Educating the younger demographic of climate change and it's impact in the polar regions.",
         link: "https://gundoosmean.netlify.app/",
         imgUrl: "/GundoozMean.png",
       },
