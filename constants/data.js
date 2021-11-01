@@ -103,6 +103,10 @@ const userData = {
         title: "Project pitch",
         link: "https://drive.google.com/file/d/1lM3Sol6uu_VWLonU6kzFqBPtTU35a_YD/view?usp=sharing",
         imgUrl: "/prezprep.png"
+      }, {
+        title: "Low Fidelity Prototype",
+        link: "https://miro.com/app/board/o9J_lnZTMGA=/?invite_link_id=799443698410",
+        imgUrl: "lofi.png"
       }
     ],
     fun: [
