@@ -107,6 +107,14 @@ const userData = {
         title: "Low Fidelity Prototype",
         link: "https://miro.com/app/board/o9J_lnZTMGA=/?invite_link_id=799443698410",
         imgUrl: "lofi.png"
+      }, {
+        title: "Participatory Design",
+        link: "https://drive.google.com/file/d/16pjgbgcXdxOjvW7r8gfNNc_5raHc2uq7/view?usp=sharing",
+        imgUrl: "pd.png"
+      }, {
+        title: "High Fidelity Prototype",
+        link: "https://www.figma.com/file/TeUEbZAnoo24ydcyz8Rgjc/Design-System?node-id=0%3A1",
+        imgUrl: "hifi.png"
       }
     ],
     fun: [
