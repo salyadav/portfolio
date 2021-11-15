@@ -3,13 +3,13 @@ Thanks to https://github.com/manuarora700/simple-developer-portfolio-website.git
 
 ```
 "artistName": "The Lumineers",
-    "genreNames": [
-        "Pop",
-        "Music",
-        "Adult Contemporary",
-        "Soft Rock",
-        "Vocal",
-        "Rock"
-        ],
-    "trackCount": 185,
+ "genreNames": [
+    "Pop",
+    "Music",
+    "Adult Contemporary",
+    "Soft Rock",
+    "Vocal",
+    "Rock"
+    ],
+"trackCount": 185,
 ```
