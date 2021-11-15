@@ -11,5 +11,5 @@ Thanks to https://github.com/manuarora700/simple-developer-portfolio-website.git
         "Vocal",
         "Rock"
         ],
-    "trackCount": 12,
+    "trackCount": 185,
 ```
