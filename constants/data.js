@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "salyadav",
   name: "Saloni Yadav",
-  designation: "Seeking Product Management Internship",
+  designation: "Seeking full-time role as a Product Manager. Graduating Dec 2022",
   avatarUrl: "/avatar.jpeg",
   email: "syadav64@gatech.edu",
   phone: "(+1) 470-815-2787",
