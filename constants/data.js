@@ -29,6 +29,12 @@ const userData = {
   },
   experience: [
     {
+      title: "Program Manager Intern",
+      company: "Microsoft",
+      year: "2022",
+      desc: "Capacity planning and management for Azure Specialized solutions for VMWare",
+    },
+    {
       title: "Master's in Computer Science - HCI",
       company: "College of Computing, Georgia Tech",
       year: "2021-2022",
